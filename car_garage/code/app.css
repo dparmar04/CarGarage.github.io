@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;700&family=Lobster&family=Montserrat&family=Titillium+Web:wght@400;600;700&display=swap');
+
+::selection {
+        background-color: #fff;
+        /* Change this to your desired color */
+        color: #2d5b55;
+    }
+body {
+    font-family: 'Exo 2', sans-serif;
+    background-color: #cfe0c3;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+    transition: background-color 0.3s ease;
+}
+
+#mainNavbar .navbar-brand {
+    color: #2d5b55;
+    font-size: 1.5rem;
+    font-family: 'Lobster', sans-serif;
+}
+#mainNavbar .navbar-brand:hover{
+    font-family: 'Lobster', sans-serif;
+    color: #2d5b55;
+    font-size: 1.5rem;
+    text-shadow: 5px 5px 18px #94b9b3;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: rgb(45, 91, 85);
+    text-shadow:5px 5px 18px #39665d;
+}
+
+nav.scrolled{
+  background-color: #889380a1;
+}
+
+h2 {
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote {
+    background-color: #a2b099;
+    margin: 5px;
+    padding: 10px 0;
+    border: 1px solid #39665d;
+    border-left: 5px solid #39665d;
+    box-shadow: 5px 5px 18px #39665d;
+}
+.lead {
+    border: 1px solid #39665d;
+    border-left: 5px solid #39665d;
+    box-shadow: 10px 10px 10px black;
+    padding-left: 5px;
+}
+.parah p {
+    font-size: 1.125rem;
+    line-height: 2;
+}
+.span {
+    color: #40798c;
+}
+
+.image {
+    width: 100%;
+    object-fit: cover;
+}
+.car {
+    width: 100px;
+}
+
+.header {
+    color: #2d5b55;
+}
+.header:hover {
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+#scrollTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #889380;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    scroll-behavior: smooth;
+}
+
+.top {
+    width: 25px;
+}
+
+.contact {
+    background-color: #2d5b55;
+    color: #fff;
+    outline: none;
+    transition:all 0.3s;
+}
+
+.contact:hover {
+    background-color: #fff;
+    color: #2d5b55;
+    outline: none;
+}
+
+.form-check-input:checked {
+    background-color: #39665d;
+    border-color: #39665d;
+}
+@media (max-width: 767px) {
+    body {
+        /* background-color: lightsalmon; */
+        overflow-x: hidden;
+    }
+    .quote {
+        display: none;
+    }
+
+    .thumbnail {
+        width: 100%;
+    }
+    .content {
+        margin-top: 50px;
+    }
+    p {
+        margin-bottom: 25px;
+    }
+}
+@media (min-width: 768px) and (max-width: 993px) {
+    body{
+        /* background-color: orange; */
+        overflow-x: hidden;
+    }
+    
+    .content {
+        margin-top: 50px;
+    }
+    p .brief{
+        margin-bottom: 25px;
+    }
+}
